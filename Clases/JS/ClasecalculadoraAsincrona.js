@@ -91,9 +91,9 @@ $("#cero").click(function() { // Agrega 0 a la barra
     break;
     case '/':
     claseinstanciada.DividirAsincrona().then(function(response){
-    document.getElementById('resultado').innerHtml=response;
+    document.getElementById('resultado').innerHTML=response;
     },function(error){
-    document.getElementById('resultado').innerHtml="No se pudo"; //LLamar a la operacion de division
+    document.getElementById('resultado').innerHTML="No se pudo"; //LLamar a la operacion de division
     });
     break;
     default:
