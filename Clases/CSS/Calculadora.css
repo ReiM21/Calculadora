@@ -1,0 +1,83 @@
+.calculadora{
+  display:block;
+  margin:0 auto;
+  padding:20px;
+  background-color:black;
+  width:300px;
+  height:500px;
+  border-radius: 10px;
+}
+.calculadora td button{
+  display:block;
+  width:60px;
+  height: 60px;
+  border-radius: 60px;
+  font-size: 25px;
+  background-color: #4F4E4F;
+    color: white;
+    border-style: none;
+}
+.calculadora td button:hover{
+  cursor: pointer;
+}
+#creditos{
+  display:block;
+  padding-top:20px;
+  color:#fff;
+  text-align: center;
+  width:300px;
+}
+#resultado{
+  display:block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  width:300px;
+  height: 100px;
+  line-height: 100px;
+  background-color:white;
+  border-radius: 60px;
+}
+#division{
+  background-color: #E87F31;
+    color: white;
+  border-style: none;
+}
+#multiplicacion{
+  background-color: #E87F31;
+    color: white;
+  border-style: none;
+}
+#resta{
+  background-color: #E87F31;
+    color: white;
+  border-style: none;
+}
+#suma{
+  background-color: #E87F31;
+    color: white;
+  border-style: none;
+}
+#igual{
+  background-color: #E87F31;
+  color: white;
+  border-style: none;
+}
+#AC{
+  background-color: #9E9792;
+    color: white;
+  border-style: none;
+}
+#Masmenos{
+  background-color: #9E9792;
+  color: white;
+  border-style: none;
+}
+#porciento{
+  background-color: #9E9792;
+    color: white;
+  border-style: none;
+}
+#hola{
+    background-color:black;
+}
